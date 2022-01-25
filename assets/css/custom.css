@@ -87,6 +87,10 @@ h1,h2,h3,h4,h5,h6 {font-family:SVN-Product Sans!important;font-weight: bold;}
 	background: rgb(255,8,84);
 	background: linear-gradient(0deg, rgba(255,8,84,1) 0%, rgba(255,106,0,1) 100%);
 }
+.horizontal-menu .bottom-navbar {
+	background: rgb(0,123,255);
+	background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(55,204,255,1) 100%);
+}
 .unit-name,.default-tree {
 	font-size:16px;
 	color:#333;
@@ -121,7 +125,12 @@ h1,h2,h3,h4,h5,h6 {font-family:SVN-Product Sans!important;font-weight: bold;}
 	width:24px!important;
 	height:24px!important;
 }
-.table-default th {font-weight:bold!important;padding:15px;background:#F9F9F9;}
+.table-default th {
+	font-weight:bold!important;
+	padding:15px;
+	background:#F9F9F9;
+	font-family: 'SVN-Product Sans'!important;
+}
 .date-day {
 	text-align:center;
 	font-weight:bold;
